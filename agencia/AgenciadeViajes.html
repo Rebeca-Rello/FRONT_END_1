@@ -4,48 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BlackTrunk</title>
     <link rel="stylesheet" href="AgenciadeViajes.css">
     <link rel="stylesheet" href="AgenciadeViajes.js">
-    <link rel="icon" type="image/jpg" href="ImgViajes/faviconavion.png"/>
+    <link rel="icon" type="image/jpg" href="ImgViajes/favicon3.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <script src = "AgenciadeViajes.js"></script>
 
 
 </head>
+<main class = "Main">
 <body>
     
-    <main class = "Main">
-       
         <div  class = "Cabecera">
-            <div class = "ImagenTitle">
-              <img src="./ImgViajes/avion.png" alt="avion">  
-            </div>  
+              <div class = "ImagenCabecera">
+                 <img src="./ImgViajes/maleta-maletero-vintage-minimalista-viajes-hotel-vacaciones-agencia-vacaciones-inspiracion-diseno-lo.jpg" alt="avion">  
+              </div>  
            
-            <div class= "Title">
-                <h1>Planea tu próximo viaje</h1>
-                <h2>Busca ofertas en hoteles, casas y mucho más...</h2>
-            </div>     
+              <div class= "Title">
+                  <h1>Planea tu próximo viaje</h1>
+                  <h2>Busca ofertas en hoteles, casas y mucho más...</h2>
+              </div>     
         </div>
-        <div class = "Formulario">
-          <form>
-            <label>Nombre:</label>
-                <input type="text" id="Nombre">
-            <label>Origen:</label>
-                <input type="text">    
-             <label>Destino:</label>
-                <input type="text">     
-           <label>Personas:</label>
-                <input type="number">     
-            <label>Fecha:</label>
-                <input type="date">
-            <input type="button" value="Solicitar Información" id = Formulario onclick="personas()">         
-          </form>
+      <div class = "mitad2">
+          <div class = "Formulario">
+              <div> 
+                 <form>
+                   <div class = "Row"> 
+                     <label>Nombre:</label>
+                     <input type="text" id = "Nombre" placeholder="Nombre">
+                   </div>   
+                   <div class = "Row"> 
+                     <label>Origen:</label >
+                     <input type="text" id = "Origen" placeholder="Origen">  
+                   </div>   
+                   <div class = "Row">    
+                     <label>Destino:</label>
+                     <input type="text" id = "Destino" placeholder="Destino">   
+                   </div> 
+                   <div class = "Row"> 
+                     <label>Personas:</label>
+                     <input type="number" id = "Personas" placeholder="Personas">   
+                   </div>     
+                   <div class = "RowDate"> 
+                   <div class = "LabelDate"> 
+                     <label>Fecha:</label>
+                   </div> 
+                   <div class ="Date">  
+                     <input type="date" id = "Date">         
+                   </div>   
+                 </form>    
+             </div>   
+             
+            </div>  
+            <div class = "Button">
+               <input class = "InputButton" type="button" value="Solicitar Información" onclick = "personas()">    
+               <input class = "InputButton" type="button" value = "Filtrar" onclick= "filtrar()">
+            </div>  
+             
+         </div>
 
-        </div>
+    </div>
+           <div class = "Cards">
+            <div class="wrapper">
+
+               <div class="item">
+                 <div class="polaroid"><img src="ImgViajes/teide.png">
+                   <div class="caption">Canarias Vibrante</div>
+                 </div>
+               </div>
+             
+               <div class="item">
+                 <div class="polaroid"><img src="ImgViajes/japonbackground.jpg">
+                   <div class="caption">Japón Milenario</div>
+                 </div>
+               </div>
+             
+               <div class="item">
+                 <div class="polaroid"><img src="ImgViajes/playa.jpg">
+                   <div class="caption">Caribe 2x1</div>
+                 </div>
+               </div>
+           
+             
+             </div>
+        
     
+            
+           </div>
       
 
-    </main>
     
-</body>
+    
+   </body>
+</main>
 </html>

@@ -4,9 +4,25 @@
 function personas(){
 
     let nombrePersona = document.getElementById("Nombre");
- console.log(nombrePersona.value);
-datos(nombrePersona.value, null, null, null, null)
+   
 
+    let origenPersona = document.getElementById("Origen");
+   
+
+    let destinoPersona = document.getElementById("Destino");
+   
+
+    let personasPersona = document.getElementById("Personas");
+
+
+    let datePersona = document.getElementById("Date");
+    
+
+
+    datos(nombrePersona.value, origenPersona.value, destinoPersona.value,
+         personasPersona.value, datePersona.value);
+
+  
 console.log(infopersonas);
 }
 
@@ -30,8 +46,15 @@ console.log(infopersonas);
 let infopersonas=[];
 
 
+function filtrar(){
 
-//  document.querySelector('#btnFormulario').addEventListener('click', ){
+  for(let i = 0;i<infopersonas.length;i++){
+    
+    if(infopersonas[i].destino.toUpperCase() == "CANARIAS" || infopersonas[i].destino.toUpperCase() == "MALLORCA" ||
+    infopersonas[i].destino.toUpperCase() == "GALICIA"){
 
-//  }
+      console.log(infopersonas[i])
+     }
+  }
+}
 
