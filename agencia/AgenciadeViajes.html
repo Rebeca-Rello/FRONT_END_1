@@ -34,7 +34,7 @@
                  <form>
                    <div class = "Row"> 
                      <label>Nombre:</label>
-                    
+                     <input type="text" id = "Nombre" placeholder="Nombre">  
                    </div>   
                    <div class = "Row"> 
                      <label>Origen:</label >
@@ -56,15 +56,22 @@
                      <input type="date" id = "Date">         
                    </div>   
                  </form>    
+
+              
              </div>   
              
             </div>  
             <div class = "Button">
-               <input class = "InputButton" type="button" value="Solicitar Información" onclick = "personas()">    
+               <input class = "InputButton" type="button" value="Solicitar Información" onclick = "addPerson()">    
                <input class = "InputButton" type="button" value = "Filtrar" onclick= "filtrar()">
             </div>  
              
          </div>
+         <div class = "mostrar"> 
+          <div id = "datos"> </div>
+          <div id = "acumulados"> </div>
+          <div id = "filtrado"> </div>
+       </div>
 
     </div>
            <div class = "Cards">
