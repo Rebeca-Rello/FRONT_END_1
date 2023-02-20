@@ -8,17 +8,59 @@
     box-sizing: border-box;
 }
 
-.Body{
+.Main{
     
-    background-image: url(imagenes/duotone_5.png);
-    
+  background-color:#0b07ed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+   
+   
 }
+
+
+  .Cabecera{
+    
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: rgb(0, 255, 174);
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font: weight 600px;
+     
+  }
+
+  .LogoyFrase{
+
+    /* border:2px solid red; */
+    height: 70%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+  }
+  .LogoyFrase img{
+
+    height: 100%;
+
+  }
 
 
 .ClassBarraLinks{
 
     /* border: 2px solid purple;  */
-    height: 20%;
+    height: 30%;
     width: 100%;
     background-color: black;
     display: flex;
@@ -48,6 +90,127 @@
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-weight: lighter;
      text-decoration: none;
+    
    
   }
+
  
+
+.CuerpoMensaje{
+
+    /* border:2px solid rgb(255, 0, 0); */
+    background-color:#0b07ed;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+
+}
+
+
+
+.card {
+height:500px;
+position: relative;
+padding: 30px;
+box-sizing: border-box;
+display: flex;
+align-items: flex-end;
+text-decoration: none;
+border: 4px solid white;
+margin-bottom: 20px;
+background-image: url(imagenes/descarga.png);
+background-size: cover;
+
+@include media {
+  height: 500px;
+}
+}
+
+.inner {
+height: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+background: white;
+box-sizing: border-box;
+padding: 40px;
+
+
+}
+
+.title {
+font-size: 15px;
+color: black;  
+text-align: center;
+font-weight: 700;
+color: #181818;
+text-shadow: 0px 2px 2px #a6f8d5;
+position: relative;
+margin: 0 0 20px 0;
+
+@include media {
+  font-size: 15px;
+}
+}
+
+.subtitle {
+color: #0d2bf3;
+text-align: center;
+}
+
+.card2 {
+background-image: url(imagenes/descarga.png);
+}
+
+.card3 {
+background-image: url(imagenes/descarga.png);
+}
+
+
+.footerLink {
+margin-right: 12px;
+color: #181818;
+text-decoration: none;
+position: relative;
+
+&:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(#b0215e, 0.3);
+  left: 0;
+  bottom: 0;
+}
+
+&:last-child {
+  margin-right: 0;
+}
+}
+
+
+
+.Footer{
+    /* border:2px solid white; */
+    background-color: rgb(0, 255, 174);
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+   
+  }
+  .Footer img{
+  
+    height: 20%;
+    width: 20%;
+   
+  }
