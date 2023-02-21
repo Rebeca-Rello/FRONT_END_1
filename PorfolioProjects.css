@@ -101,8 +101,8 @@
 
 
   .CuerpoMensaje{
-
-    border:2px solid red;
+/* 
+    border:2px solid red; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -113,13 +113,7 @@
   }
 
 
-  .CuerpoMensajeimg{
 
-    border: 2px solid yellow;
-    height: 70%;
-    width: 50%;
- 
-  }
 
   .TituloTech{
     /* border:2px solid orange; */
@@ -143,8 +137,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:  4%;
+    flex-wrap: wrap;
 
 
   }
@@ -174,10 +170,13 @@
   border-radius: 30px;
   width: 300px;
   height: 300px;
-  perspective: 1000px;
-  margin:0 auto;
+  /* perspective: 1000px; */
+  /* margin:0 auto; */
  
   
+}
+a{
+  text-decoration: none;
 }
 
 .flip-container img{
@@ -247,6 +246,7 @@
   /* transform: rotateX(180deg); */
   transform: rotateY(180deg);
   text-align:center;
+  text-decoration: none;
 }
 
 .dorso p {
@@ -263,12 +263,14 @@
   background:transparent;
   padding:1em;
   text-transform:uppercase;
+ 
 }
 
 .dorso button:hover {
   color:#5f127c;
   /* border-color:#5f127c; */
   font-weight:bold;
+  text-decoration: none;
 } 
 
 .span-mother{
@@ -296,7 +298,7 @@
 
 
 .Footer{
-    border:2px solid white;
+    /* border:2px solid white; */
     background-color: rgb(212, 175, 55);
     height: 5%;
     width: 100%;
