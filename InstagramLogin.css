@@ -1,0 +1,192 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --myfontInstavar:'Lobster', cursive;
+    --myfontvar2:font-family: 'Roboto', sans-serif;
+  
+   
+      
+}
+
+.Main{
+
+    border: 2 px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.Cabecera{
+
+  
+    border: 2px solid rgb(0, 0, 0);
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+
+    
+     
+  }
+
+  .BodydeWeb{
+
+    border:2px solid red;
+    height: 550px;
+    width: 1215.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(207, 209, 213, 1);
+  }
+
+  .Imagen{
+
+    border: 2px solid rgb(0, 255, 30);
+    height: 500px; ;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding:
+   
+    
+
+}
+
+.Imagen img{
+
+    border:2px solid violet;
+    max-width: 100%;
+    display: block;
+    height: 100%;  
+    width: 350px;
+      
+      
+}
+
+.Acceso{
+
+    border: 2px solid rgb(0, 21, 255);
+    height: 510px; ;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    gap: 30px;
+    position:static;
+    top:100px;
+    z-index: 2;
+
+}
+
+.Login{
+
+  border:2px solid rgb(255, 230, 0);
+  height: 340px;
+  width: 270px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font: inherit;
+  position:static;
+  top:100px;
+  z-index: 8;
+
+
+}
+
+.Titulo{
+
+  border:2px solid brown;
+  height: 100px;
+  width: 270px;
+  font-family: var(--myfontInstavar);
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  font-size: 34px;
+
+
+  
+
+
+}
+.Inputs{
+  border:2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.Inputs::placeholder {
+
+  background-color:rgb(226, 215, 215);
+}
+
+.RecordarInicio{
+
+  border:2px solid red;
+  height: 20px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  font:var(--myfontvar2);
+  color:black;
+  font-size: 10px;
+  gap: 7px;
+ 
+
+}
+.Input{
+
+  
+}
+
+.Textoguardar{
+
+
+}
+
+.Button{
+
+  border:2px solid palevioletred;
+}
+  .footer{
+
+    border:2px solid black;
+    height: 90px;
+    width: 1213px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:space-evenly;
+    flex-wrap: wrap;
+    font-family: var(--myfontvar2);
+    font-size:small;
+    color:rgb(207, 209, 213, 1);
+    text-align: justify;
+    text-decoration: none;
+  }
