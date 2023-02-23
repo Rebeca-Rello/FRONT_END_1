@@ -7,7 +7,7 @@
 }
 
 
-.Contenedor{
+/* .Contenedor{
 
    
     height: 50vh;
@@ -16,10 +16,10 @@
     grid-template-columns: 250px 120px 250px;
     grid-template-rows: 160px 200px;
 
-}
+}  */
 
 
-.A{
+/* .A{
 
     background-color: rgb(107, 245, 125);
     text-align: center;
@@ -50,29 +50,18 @@
     background-color:rgb(255, 255, 95);
      text-align: center;
     color: aliceblue;
-} 
+}  */
 
-/* .Contenedor{
 
-    border:2px solid red;
-    height: 50vh;
-    width: 41%;
-    display: grid;
-    grid-template-columns: 200px 120px 200px 200px 120px 200px;
-    grid-template-rows: 350px 200px;
 
-}
-
-.Contenedor * {
+/* .Contenedor * {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .A,
 .C,
 .E{
-
     background-color: rgb(90, 255, 112);
     color:black;
 }
@@ -81,8 +70,13 @@
 .F{
     background-color:rgb(0, 0, 0);
     color:white;
-} */
+
+}
+ */
+
+
 /* 
+
 .Contenedor{
 
    
@@ -95,6 +89,7 @@
 } 
 
 
+
 .Header{
 
 background-color: black;
@@ -103,8 +98,11 @@ grid-row:y0/y1 ;
 color:white;
 text-align: center;
 font-size: small;
-}
 
+
+
+}
+ 
 .Contenido{
     background-color: rgb(0, 81, 255);
     grid-column: x0/x1;
@@ -188,10 +186,18 @@ border:2px solid black;
 .Menu1{
 
     background-color: black;
-} */
+} 
 
 
-/* .Contenedor{
+
+
+ */
+
+
+
+
+
+.Contenedor{
 
    
     height: 50vh;
@@ -201,17 +207,16 @@ border:2px solid black;
                         "left right right"
                         "left right right"
                         "footer footer footer";
-}  */
+} 
 
 
-/* .Cabecera{
+.Cabecera{
   grid-area: header header imagen;
    
-} */
+} 
 
 
-
-/* .Header1 {
+.Header1 {
     grid-area: header;
     background-color: brown;
     color:white;
@@ -268,4 +273,5 @@ border:2px solid black;
     color:white;
     text-align: center;
 
-} */
+} 
+
