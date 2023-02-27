@@ -1,0 +1,277 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* .Contenedor{
+
+   
+    height: 50vh;
+    width: 41%;
+    display: grid;
+    grid-template-columns: 250px 120px 250px;
+    grid-template-rows: 160px 200px;
+
+}  */
+
+
+/* .A{
+
+    background-color: rgb(107, 245, 125);
+    text-align: center;
+    color: aliceblue;
+}
+.B{
+    background-color:rgb(255, 163, 78);
+    text-align: center;
+    color: aliceblue;
+}
+.C{
+    background-color:orangered;
+    text-align: center;
+    color: aliceblue;
+}
+.D{
+    background-color:rgba(255, 0, 0, 0.918);
+    text-align: center;
+    color: aliceblue;
+}   
+.E{
+    background-color:blue;
+     text-align: center;
+    color: aliceblue;
+    
+}
+.F{
+    background-color:rgb(255, 255, 95);
+     text-align: center;
+    color: aliceblue;
+}  */
+
+
+
+/* .Contenedor * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.A,
+.C,
+.E{
+    background-color: rgb(90, 255, 112);
+    color:black;
+}
+.B, 
+.D,
+.F{
+    background-color:rgb(0, 0, 0);
+    color:white;
+
+}
+ */
+
+
+/* 
+
+.Contenedor{
+
+   
+    height: 50vh;
+    width: 41%;
+    display: grid;
+    grid-template-columns:[x0] 3fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 0.5fr [y1] 4fr [y2] 0.5fr  [y3];
+
+} 
+
+
+
+.Header{
+
+background-color: black;
+grid-column: x0/x2;
+grid-row:y0/y1 ;
+color:white;
+text-align: center;
+font-size: small;
+
+
+
+}
+ 
+.Contenido{
+    background-color: rgb(0, 81, 255);
+    grid-column: x0/x1;
+    grid-row:y1/y2 ;
+    color:white;
+    text-align: left;
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1] 2fr [y3];
+    padding:1%;
+    gap:2%;
+    
+
+}
+.Contenido *{
+    border:1px solid white;
+
+}
+
+.ContenidoTitle{
+
+    grid-column:x0/x2 ;
+    grid-row: y0/y1;
+}
+
+.Menu{
+
+    background: rgb(96, 222, 231);
+    grid-column: x1/x2;
+    grid-row:y1/y2 ;
+    color:white;
+    text-align: center;
+    display: grid;
+    padding:2%;
+    gap:2%;
+    font-size: smaller;
+    
+
+}
+
+.Menu * {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: smaller;
+}
+
+.Footer{
+    background-color: rgb(82, 40, 110);
+    grid-column: x0/x2;
+    grid-row:y2/y3 ;
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1];
+    font-size: smaller;
+    gap:1%;
+}
+
+.Footer *{
+border:2px solid black;
+
+}
+
+.Footer1{
+
+    grid-column:x0/x1;
+    grid-row:y0/y1;
+   
+}
+
+.Footer2{
+
+    grid-column:x1/x2;
+    grid-row:y0/y1;
+    
+
+}
+.Menu1{
+
+    background-color: black;
+} 
+
+
+
+
+ */
+
+
+
+
+
+.Contenedor{
+
+   
+    height: 50vh;
+    width: 41%;
+    display: grid;
+    grid-template-areas: "header header imagen"
+                        "left right right"
+                        "left right right"
+                        "footer footer footer";
+} 
+
+
+.Cabecera{
+  grid-area: header header imagen;
+   
+} 
+
+
+.Header1 {
+    grid-area: header;
+    background-color: brown;
+    color:white;
+    text-align: center;
+}
+.Imagen{
+    background-color:rgba(105, 23, 23, 0.767) ;
+    grid-area: imagen;
+    color:white;
+    text-align: center;
+}
+
+.FondoNaranja{
+
+    background-color: orangered;
+    grid-area: left;
+    display: grid;
+    padding:6%;
+    gap:20%;
+
+}
+.FondoNaranja *{
+
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+.FondoRojo{
+
+    background-color: red;
+    grid-area: right;
+    display: grid;
+    padding:6%;
+    gap:2%;
+
+
+}
+
+.FondoRojo *{
+
+    border:1px solid white;
+    color:white;
+    text-align: center;
+
+
+}
+.Footer{
+
+    background-color:rgba(105, 23, 23, 0.767);
+    grid-area: footer;
+    color:white;
+    text-align: center;
+
+} 
+
