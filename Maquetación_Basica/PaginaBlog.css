@@ -1,0 +1,114 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ClassBody{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+  
+}
+
+.ClassBarraLinks{
+
+   height: 20%;
+   width: 100%;
+   border: 2px solid purple;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+
+  
+}
+.ClassLinks{
+
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: lighter;
+   
+   
+   
+}
+
+.Link{
+
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+  
+ }
+
+ .Titulo{
+
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+ }
+ .ImagenyTexto{
+
+    /* border:2px solid red; */
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+ }
+
+ .ContenedorImagen{
+
+    /* border: 2px solid purple; */
+    height: 85%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ClassImagen{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+   
+}
+
+.Texto{
+
+    /* border: 2px solid pink; */
+    height: 50%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: space-between;
+    font-size: 10px;
+    gap: 28px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
